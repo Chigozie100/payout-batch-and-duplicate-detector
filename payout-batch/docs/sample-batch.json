@@ -1,0 +1,15 @@
+{
+  "batchRef": "SAL-OCT-2026",
+  "debitAccountId": "1012345678",
+  "currency": "NGN",
+  "lines": [
+    { "lineRef": "EMP-0001", "accountNumber": "0123456789", "bankCode": "000013",
+      "beneficiaryName": "Adaeze Okonkwo", "amount": "485000.00" },
+    { "lineRef": "EMP-0002", "accountNumber": "2093456712", "bankCode": "000014",
+      "beneficiaryName": "Babatunde Adeyemi", "amount": "362500.00" },
+    { "lineRef": "EMP-0003", "accountNumber": "0000123456", "bankCode": "000015",
+      "beneficiaryName": "Chinedu Okafor", "amount": "210000.50" },
+    { "lineRef": "EMP-0004", "accountNumber": "12345", "bankCode": "000013",
+      "beneficiaryName": "Rejected: not a 10-digit account", "amount": "100.00" }
+  ]
+}
