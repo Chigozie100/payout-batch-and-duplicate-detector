@@ -32,6 +32,7 @@ public class PaymentReferenceGenerator {
         return PREFIX + digits + Mod97.checkDigits(digits);
     }
 
+
     /** True when the reference has the right shape and its MOD 97-10 check digits are correct. */
     public boolean isValid(String reference) {
         if (reference == null || reference.length() != LENGTH || !reference.startsWith(PREFIX)) {
